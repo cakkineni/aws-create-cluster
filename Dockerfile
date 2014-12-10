@@ -7,5 +7,5 @@ ADD cloud-config-init.yaml cloud-config-init.yaml
 ADD aws_ami.json aws_ami.json
 RUN chmod +x create_cluster
 CMD "./create_cluster"
-#docker run -e ETCD_API=172.17.42.1:4001 -e AWS_ACCESS_KEY_ID=AKIAIJS4S5PY4X23PHIA -e "AWS_SECRET_ACCESS_KEY=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"  -e REGION=ap-northeast-1 -e NODE_COUNT=1 -e VM_SIZE=t1.micro cakkineni/aws-create-cluster:latest
+#docker run -e ETCD_API=172.17.42.1:4001 -e AWS_ACCESS_KEY_ID=xxxxxxxx   -e "AWS_SECRET_ACCESS_KEY=xxxxxxx"  -e REGION=ap-northeast-1 -e NODE_COUNT=1 -e VM_SIZE=t1.micro cakkineni/aws-create-cluster:latest
 
