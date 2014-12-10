@@ -1,2 +1,2 @@
-was-create-cluster
+aws-create-cluster
 ==================
